@@ -13,7 +13,7 @@ export default function Home() {
             duration: 0.8,
             delay: 0.8,
             ease: "power3.out",
-            y: 100,
+            y: 130,
             stagger: {
                 amount: 0.15
             }

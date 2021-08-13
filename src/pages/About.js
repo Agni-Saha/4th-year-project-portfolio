@@ -12,7 +12,7 @@ function About() {
             duration: 0.8,
             delay: 0.8,
             ease: "power3.out",
-            y: 190,
+            y: 270,
             stagger: {
                 amount: 0.15
             }
