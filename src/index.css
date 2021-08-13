@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'FF Good Pro';
+  src: local('FF Good Pro Bold'), local('FF-Good-Pro-Bold'), url('./fonts/FFGoodPro-Bold.woff2') format('woff2'), url('./fonts/FFGoodPro-Bold.woff') format('woff'), url('./fonts/FFGoodPro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Josefin Sans', sans-serif !important;
 }

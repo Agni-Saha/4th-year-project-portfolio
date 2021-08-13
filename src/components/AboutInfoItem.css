@@ -1,0 +1,42 @@
+.aboutInfoItemStyle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: absolute;
+    left: 18rem;
+}
+
+.item {
+    color: #6a040f;
+    padding: 1rem;
+    font-size: 1.35rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutInfoItemStyle {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .items {
+        position: initial;
+        gap: 1rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+}

@@ -1,38 +1,408 @@
 .App {
-  text-align: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.switch-wrapper {
+    position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input, textarea {
+    outline: none;
+    border: 2px solid #ced4da;
+    display: block;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    color: #212529;
+    border-radius: 0.25rem;
+    width: 100%;
+    transition: 0.3s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input:focus, textarea:focus {
+    border-color: #d20e4a;
+    background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-header {
+    margin: 0 0 10px 0;
+    font-size: 65px;
+    line-height: 90px;
+    letter-spacing: -3px;
+    font-weight: 900;
+    color: #F50049;
+    text-transform: uppercase;
+}
+
+.line-wrap {
+    height: 90px;
+    overflow: hidden;
+}
+
+.line-wrap-larger {
+    height: 120px;
+    overflow: hidden;
+}
+
+.line-wrap-extra-large {
+    height: 190px;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+/* @media screen and (max-width: 992px) {
+    .img {
+        margin-top: 350px;
+        object-position: center;
+    }
+} */
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    color: #F50049 !important;
+    text-transform: uppercase !important;
+}
+
+.navbar a {
+    font-size: 1.3rem !important;
+    text-transform: capitalize !important;
+    color: black !important;
+    margin: 0 10px !important;
+}
+
+.navbar .menu_active {
+    font-weight: bold !important;
+    border-bottom: 1px solid #370617 !important;
+}
+
+.navbar a:hover {
+    color: #F50049 !important;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+    .navbar .menu_active {
+        font-weight: bold !important;
+        border-bottom: none !important;
+    }
+}
+
+/*==========================================================
+Home Page Section
+============================================================*/
+
+#header {
+    width: 100%;
+    height: 80vh;
+    margin-top: 40px;
+    font-family: "FF Good Pro";
+    position: relative;
+}
+
+#header h1 {
+    margin: 0 0 10px 0;
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: -3px;
+    font-weight: 900;
+    color: black;
+    text-transform: uppercase;
+}
+
+#header .brand-name {
+    color: #E40044;
+}
+
+#header h2 {
+    color: #484848;
+    font-size: 24px;
+}
+
+#header .btn-get-started {
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #d20e4a;
+    border: 2px solid #d20e4a;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+#header .btn-get-started:hover {
+    background-color: #d20e4a;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.header-img {
+    text-align: right;
+}
+
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .home-details {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #header {
+        margin-top: 150px;
+    }
+}
+
+/*==========================================================
+contact Page Section
+============================================================*/
+
+.contact_div .btn-submit {
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 50px;
+    color: #d20e4a;
+    background-color: transparent;
+    border: 2px solid #d20e4a;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.contact_div .btn-submit:hover {
+    background-color: #d20e4a;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.contact_div .personal_contact {
+    width: 40%;
+}
+
+.contact_div .contact-column-heading {
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+}
+
+.contact_div .contact-info .contact-column-heading {
+    margin: 1rem 0 1rem 0;
+}
+
+.contact_div .contact-info ul, .contact_div .social-info ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.contact_div .contact-info ul li {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.contact_div .contact-info ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+.contact_div .contact-info ul li:hover {
+    background-color: #E40044;
+}
+
+.contact_div .contact-info ul li:hover .icon {
+    color: white;
+}
+
+.contact_div .contact-info ul li:hover .text {
+    color: white;
+    text-decoration: none;
+}
+
+.contact_div .contact-info ul li a .icon {
+    width: 25px;
+    color: #E40044;
+}
+
+.contact_div .contact-info ul li a .text {
+    color: #48464b;
+}
+
+.contact_div .social-info ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 2rem;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.contact_div .social-info ul li a {
+    color: #E40044;
+    transition: all 0.3s;
+    padding: 15px 12px 5px 12px;
+    text-decoration: none;
+}
+
+.contact_div .social-info ul li a:hover {
+    color: white;
+    background-color: #E40044;
+    border-radius: 5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .contact_div .personal_contact {
+        width: 100%;
+    }
+    .contact_div .contact-info .contact-column-heading {
+        margin-top: 4rem;
+    }
+    .contact_div .contact-info ul li a .text {
+        font-size: 1rem;
+    }
+}
+
+/*==========================================================
+About Page Section
+============================================================*/
+
+#about {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#about .about_heading {
+    margin: 0 0 10px 0;
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: -3px;
+    font-weight: 900;
+    color: black;
+    font-family: "FF Good Pro";
+    text-transform: uppercase;
+}
+
+#about .brand-name {
+    margin: 0 0 10px 0;
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: -3px;
+    font-weight: 900;
+    color: #E40044;
+    font-family: "FF Good Pro";
+    text-transform: uppercase;
+}
+
+#about .about_desc {
+    max-width: 80%;
+    font-size: 1.15rem;
+}
+
+#about .about-img {
+    text-align: right;
+}
+
+#about .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.about__info__items {
+    margin-top: 5rem;
+}
+
+.about__info__item {
+    margin-bottom: 5rem;
+}
+
+.about__info__heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #E40044;
+    font-family: "FF Good Pro";
+}
+
+@media only screen and (max-width: 768px) {
+    .about__info__heading {
+        font-size: 1.5rem;
+    }
+    #about {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #about {
+        margin-top: 150px;
+    }
 }
