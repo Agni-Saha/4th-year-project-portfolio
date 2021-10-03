@@ -10,7 +10,7 @@ function Navbar() {
                         <nav className="navbar navbar-expand-lg navbar-light">
                             <div className="container-fluid">
                                 <NavLink className="navbar-brand" to="/">
-                                    Agni Saha
+                                    UKR
                                 </NavLink>
                                 <button className="navbar-toggler" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -35,13 +35,13 @@ function Navbar() {
                                         <li className="nav-item">
                                             <NavLink activeClassName="menu_active"
                                                 className="nav-link" to="/projects">
-                                                Projects
+                                                Research Areas
                                             </NavLink>
                                         </li>
                                         <li className="nav-item">
                                             <NavLink activeClassName="menu_active"
                                                 className="nav-link" to="/contact">
-                                                Contact
+                                                Contact Me
                                             </NavLink>
                                         </li>
                                     </ul>

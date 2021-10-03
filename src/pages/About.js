@@ -40,20 +40,22 @@ function About() {
                                         <h1 className="brand-name"
                                             ref={element => line2 = element}
                                         >
-                                            {" "}Agni Saha
+                                            {" "}Utpal Kumar Ray
                                         </h1>
                                     </div>
                                     <div className="line-wrap-extra-large">
                                         <p className="about_desc"
                                             ref={element => line3 = element}
                                         >
-                                            I'm a Junior Full Stack Developer and currently in
-                                            Information Technology major at Jadavpur University, India.
+                                            I'm presently employed at Department of
+                                            Information Technology at Jadavpur University, India.
                                             <br /> <br />
-                                            I create projects with the belief that “Less is more”
-                                            and so I prefer minimalistic and clean design, that has a modern
-                                            appealing look.
-
+                                            The subjects that I have taught are -
+                                            Parallel Processing, Software Engineering ,Software Quality
+                                            Management, Real Time and Embedded System, Computer Networks,
+                                            Computer Organization and Architecture, Distributed System,
+                                            Operating System, Cryptography, Network Security
+                                            and Information Security
                                         </p>
                                     </div>
                                 </div>
@@ -66,29 +68,87 @@ function About() {
                                     <h1 className="about__info__heading">Education</h1>
 
                                     <AboutInfoItem
-                                        title="School"
-                                        items={['Kendriya Vidyalaya No. 2, Salt Lake, Kolkata - 106']}
+                                        title="Masters in Technology (M.Tech.) on Electrical Engineering"
+                                        items={['Indian Institute of Technology, Kanpur']}
                                     />
-                                    <AboutInfoItem title="Collage" items={['Jadavpur University']} />
+                                    <AboutInfoItem
+                                        title="Bachelor in Technology (B.Tech.)k on Electronics and Tele Comm Engg"
+                                        items={['Jadavpur University, Kolkata']}
+                                    />
+                                    <AboutInfoItem
+                                        title="Higher Secondary Examination"
+                                        items={['West Bengal Council of Higher Secondary Education']}
+                                    />
+                                    <AboutInfoItem
+                                        title=" Secondary Examination"
+                                        items={['West Bengal Council of Higher Secondary Education']}
+                                    />
                                 </div>
                                 <div className="about__info__item">
                                     <h1 className="about__info__heading">My Skills</h1>
 
                                     <AboutInfoItem
-                                        title="FrontEnd"
-                                        items={['HTML', 'CSS', 'JavaScript', 'React.js']}
+                                        title="Operating Systems"
+                                        items={['UX', 'UNIX', 'SOLARIS', 'CTRON', 'iRMX', 'LINUX', 'Windows']}
+                                        topMargin={false}
                                     />
-                                    <AboutInfoItem title="BackEnd" items={['Node', 'Express']} />
                                     <AboutInfoItem
-                                        title="Database"
-                                        items={['PostgreSQL', 'MongoDB', 'Firebase']}
+                                        title="Languages"
+                                        items={['C', 'C++', 'ASM86', 'Shell', 'Perl', 'JAVA', 'Python']}
+                                        topMargin={false}
                                     />
-                                    <AboutInfoItem title="Design" items={['Photoshop', 'Adobe XD']} />
+                                    <AboutInfoItem
+                                        title="Networking"
+                                        items={['TCP/IP', 'X25', 'Ethernet', 'ISO / OSI', 'FDDI', 'NFS']}
+                                        topMargin={false}
+                                    />
+                                    <AboutInfoItem
+                                        title="Storage"
+                                        items={['NAS', 'SAN', 'RAID']}
+                                        topMargin={false}
+                                    />
+                                    <AboutInfoItem
+                                        title="GUI"
+                                        items={['HP-VUE', 'CDE', 'X-Windows']}
+                                        topMargin={false}
+                                    />
+                                    <AboutInfoItem
+                                        title="Tools"
+                                        items={['Version Control Systems', 'Install-Shield', 'Y2K', 'SFS97', 'IOZONE', 'NETBENCH', 'MPI', 'CUDA', 'OpenMP', 'GPU', 'Online Teaching']}
+                                        topMargin={false}
+                                    />
                                 </div>
                                 <div className="about__info__item">
                                     <h1 className="about__info__heading">Experiences</h1>
 
-                                    <AboutInfoItem title="2020-2021" items={['null']} />
+                                    <AboutInfoItem
+                                        title="Department of Information Technology, Jadavpur University, Kolkata"
+                                        items={["Assistant Professor(Cont) (2003 - Present)"]}
+                                    />
+                                    <AboutInfoItem
+                                        title="SUN Micro System, Menlo Park, California, USA"
+                                        items={["Member Of Technical Staff (2000 - 2002)"]}
+                                    />
+                                    <AboutInfoItem
+                                        title="AUSPEX SYSTEMS, Santa Clara, California"
+                                        items={["Software Engineer (1999 - 2000)"]}
+                                    />
+                                    <AboutInfoItem
+                                        title="STRATUS COMPUTERS, San Jose, California, USA"
+                                        items={["Software Engineer (1998 - 1999)"]}
+                                    />
+                                    <AboutInfoItem
+                                        title="RAVEL SOFTWARE INC., San Jose, California, USA"
+                                        items={["Software Engineer (1997 - 1998)"]}
+                                    />
+                                    <AboutInfoItem
+                                        title="HCL America, Sunnyvale, California, USA"
+                                        items={["Software Consultant (1996 - 1997)"]}
+                                    />
+                                    <AboutInfoItem
+                                        title="HCL America, Sunnyvale, California, USA"
+                                        items={["Software Consultant (1994 - 1996)"]}
+                                    />
                                 </div>
                             </div>
                         </div>

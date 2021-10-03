@@ -26,7 +26,9 @@ function Contact() {
     return (
         <div>
             <div className="my-5">
-                <h1 className="text-center page-header">Contact Me</h1>
+                <h1 className="text-center contact-header page-header">
+                    Contact Me
+                </h1>
             </div>
             <div className="container contact_div">
                 <div className="row">
@@ -92,13 +94,17 @@ function Contact() {
                                             <span className="icon">
                                                 <i className="far fa-envelope"></i>
                                             </span>
-                                            <span className="text">agnisaha337599@gmail.com</span>
+                                            <span className="text">Utpal.Ray@JadavpurUniversity.IN</span>
                                         </a></li>
                                         <li><a href="#filluplater">
                                             <span className="icon">
                                                 <i className="fas fa-location-arrow"></i>
                                             </span>
-                                            <span className="text">Kolkata, West Bengal, India</span>
+                                            <span className="text">
+                                                107/1, R. K. Sarani,
+                                                Sreemapally, Behala,
+                                                Kolkata – 700060, India
+                                            </span>
                                         </a></li>
                                     </ul>
                                 </div>

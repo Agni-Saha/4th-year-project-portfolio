@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { NavLink } from 'react-router-dom'
-import web from "../images/burgundy-biofuel-development.png"
+import web from "../images/pngwing.com.png"
 
 export default function Home() {
 
@@ -41,7 +41,7 @@ export default function Home() {
                                         <h1 className="brand-name"
                                             ref={element => line2 = element}
                                         >
-                                            {" "}Agni Saha
+                                            Utpal Kumar Roy
                                         </h1>
                                     </div>
                                     <div className="line-wrap-larger">

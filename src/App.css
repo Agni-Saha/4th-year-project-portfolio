@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Rock Salt";
+    src: url("./fonts/RockSalt-Regular.ttf") format("truetype");
+}
+
 .App {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -82,9 +87,12 @@ a {
 }
 
 .navbar .navbar-brand {
+    font-family: "Rock Salt";
+    letter-spacing: 2px;
     font-size: 1.5rem !important;
     font-weight: 700 !important;
-    color: #F50049 !important;
+    color: #7209b7 !important;
+    /* color: #40916c; */
     text-transform: uppercase !important;
 }
 
@@ -120,22 +128,23 @@ Home Page Section
 
 #header {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 80px;
     font-family: "FF Good Pro";
 }
 
 #header h1 {
     margin: 0 0 10px 0;
-    font-size: 90px;
+    font-size: 70px;
     line-height: 90px;
     letter-spacing: -3px;
+    word-spacing: 5px;
     font-weight: 900;
     color: black;
     text-transform: uppercase;
 }
 
 #header .brand-name {
-    color: #E40044;
+    color: #48cae4;
 }
 
 #header h2 {
@@ -143,7 +152,7 @@ Home Page Section
     font-size: 24px;
 }
 
-#header .btn-get-started {
+.btn-get-started {
     font-weight: 500;
     font-size: 22px;
     letter-spacing: 1px;
@@ -156,7 +165,7 @@ Home Page Section
     transition: 0.3s ease-in-out;
 }
 
-#header .btn-get-started:hover {
+.btn-get-started:hover {
     background-color: #d20e4a;
     color: white;
     transform: translateY(-5px);
@@ -211,6 +220,10 @@ Home Page Section
 contact Page Section
 ============================================================*/
 
+.contact-header {
+    color: #8b5e34;
+}
+
 .contact_div .btn-submit {
     font-size: 1.25rem;
     font-weight: 700;
@@ -237,6 +250,7 @@ contact Page Section
 .contact_div .contact-column-heading {
     text-align: center;
     margin: 3rem 0 1rem 0;
+    color: #6f1d1b;
 }
 
 .contact_div .contact-info .contact-column-heading {
@@ -308,7 +322,7 @@ contact Page Section
 }
 
 .contact_div .social-info ul li a {
-    color: #E40044;
+    color: #023e8a;
     text-decoration: none;
     padding-top: 7px;
 }
@@ -319,7 +333,7 @@ contact Page Section
     cursor: pointer;
 }
 
-.contact_div .social-info ul li:hover a{
+.contact_div .social-info ul li:hover a {
     border-radius: 5rem;
     color: white;
 }
@@ -362,7 +376,7 @@ About Page Section
     line-height: 90px;
     letter-spacing: -3px;
     font-weight: 900;
-    color: #E40044;
+    color: #7209b7;
     font-family: "FF Good Pro";
     text-transform: uppercase;
 }
@@ -418,6 +432,14 @@ About Page Section
     .about__info__heading {
         font-size: 1.5rem;
     }
+    #about .about_heading, #about .brand-name {
+        font-size: 2.2rem;
+        letter-spacing: 0;
+        line-height: 1.2;
+    }
+    .line-wrap {
+        height: initial;
+    }
     #about {
         margin-top: 50px;
     }
@@ -427,4 +449,59 @@ About Page Section
     #about {
         margin-top: 50px;
     }
+}
+
+/*--------------------------------------------------------------
+-----------------------Project Section--------------------------
+---------------------------------------------------------------*/
+
+.project_buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.project_buttons {
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .project_buttons_container {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .project_buttons {
+        margin: 0 0 2rem 0;
+    }
+    .page-header {
+        font-size: 2.65rem;
+        word-spacing: 6px;
+    }
+}
+
+/*--------------------------------------------------------------
+------------------------Thesis Section--------------------------
+---------------------------------------------------------------*/
+
+.Thesis {
+    padding: 4rem;
+}
+
+.Thesis table {
+    margin-bottom: 2rem;
+}
+
+.Thesis h1 {
+    margin-top: 3rem;
+}
+
+.Thesis h2 {
+    font-family: "FF Good Pro";
+    letter-spacing: 1px;
+}
+
+.Thesis p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
 }
