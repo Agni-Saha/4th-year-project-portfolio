@@ -11,7 +11,7 @@ function Projects() {
                     <NavLink to="/me_thesis" className="btn-get-started project_buttons">
                         M.E. Thesis
                     </NavLink>
-                    <NavLink to="/about" className="btn-get-started project_buttons">
+                    <NavLink to="/be_projects" className="btn-get-started project_buttons">
                         B.E. Projects
                     </NavLink>
                     <NavLink to="/about" className="btn-get-started project_buttons">

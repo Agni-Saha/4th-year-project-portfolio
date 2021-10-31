@@ -7,20 +7,20 @@ export default function MeThesis() {
             <table border="1">
                 <tr>
                     <th>Slno.</th>
-                    <th colspan="5">THESIS NAME</th>
-                    <th colspan="5">RESERCH AREA</th>
-                    <th colspan="5">AUTHOR</th>
-                    <th colspan="5">YEAR OF COMPLRTION</th>
-                    <th colspan="5">ABSTRACT</th>
+                    <th colSpan="5">THESIS NAME</th>
+                    <th colSpan="5">RESERCH AREA</th>
+                    <th colSpan="5">AUTHOR</th>
+                    <th colSpan="5">YEAR OF COMPLRTION</th>
+                    <th colSpan="5">ABSTRACT</th>
                 </tr>
 
                 <tr>
                     <td>1.</td>
-                    <td colspan="5"> A Suggested Learning Approach for Software Engineering Students</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">Biswajit Saha</td>
-                    <td colspan="5">2004</td>
-                    <td colspan="5">
+                    <td colSpan="5"> A Suggested Learning Approach for Software Engineering Students</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">Biswajit Saha</td>
+                    <td colSpan="5">2004</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A1">Abstract1.</a>
                         </p>
@@ -29,11 +29,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>2.</td>
-                    <td colspan="5">Implementation of public key cryptography</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Bikash Mandal</td>
-                    <td colspan="5">2005</td>
-                    <td colspan="5">
+                    <td colSpan="5">Implementation of public key cryptography</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Bikash Mandal</td>
+                    <td colSpan="5">2005</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A2">Abstract2.</a>
                         </p>
@@ -42,11 +42,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>4.</td>
-                    <td colspan="5">Matrix Multiplication with Parallel Virtual Machine (PVM)</td>
-                    <td colspan="5">Parallel processing</td>
-                    <td colspan="5">Smita Basu</td>
-                    <td colspan="5">2005</td>
-                    <td colspan="5">
+                    <td colSpan="5">Matrix Multiplication with Parallel Virtual Machine (PVM)</td>
+                    <td colSpan="5">Parallel processing</td>
+                    <td colSpan="5">Smita Basu</td>
+                    <td colSpan="5">2005</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A4">Abstract4.</a>
                         </p>
@@ -55,11 +55,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>5.</td>
-                    <td colspan="5">A Highly secure Encryption algorithm with 128 bit key</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Raja Durai</td>
-                    <td colspan="5">2005</td>
-                    <td colspan="5">
+                    <td colSpan="5">A Highly secure Encryption algorithm with 128 bit key</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Raja Durai</td>
+                    <td colSpan="5">2005</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A5">Abstract5.</a>
                         </p>
@@ -68,12 +68,12 @@ export default function MeThesis() {
 
                 <tr>
                     <td>6.</td>
-                    <td colspan="5">Factors affecting Wireless Local Area Network Performance And few ways to circumvent them
+                    <td colSpan="5">Factors affecting Wireless Local Area Network Performance And few ways to circumvent them
                     </td>
-                    <td colspan="5">Wireless LAN</td>
-                    <td colspan="5">Avirup Dasgupta</td>
-                    <td colspan="5">2005</td>
-                    <td colspan="5">
+                    <td colSpan="5">Wireless LAN</td>
+                    <td colSpan="5">Avirup Dasgupta</td>
+                    <td colSpan="5">2005</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A6">Abstract6.</a>
                         </p>
@@ -82,11 +82,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>7.</td>
-                    <td colspan="5">Comparison of different matrix multiplication algorithms in cluster</td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">Suman Kalyan Pandit</td>
-                    <td colspan="5">2006</td>
-                    <td colspan="5">
+                    <td colSpan="5">Comparison of different matrix multiplication algorithms in cluster</td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">Suman Kalyan Pandit</td>
+                    <td colSpan="5">2006</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A7">Abstract7.</a>
                         </p>
@@ -97,11 +97,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>8.</td>
-                    <td colspan="5">A variable length hash code generation and its application</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Sanghamitra Kundu</td>
-                    <td colspan="5">2006</td>
-                    <td colspan="5">
+                    <td colSpan="5">A variable length hash code generation and its application</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Sanghamitra Kundu</td>
+                    <td colSpan="5">2006</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A8">Abstract8.</a>
                         </p>
@@ -110,11 +110,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>9.</td>
-                    <td colspan="5">Analysis of quality management of software through metrics</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">Debapriyo Kar</td>
-                    <td colspan="5">2006</td>
-                    <td colspan="5">
+                    <td colSpan="5">Analysis of quality management of software through metrics</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">Debapriyo Kar</td>
+                    <td colSpan="5">2006</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A9">Abstract9.</a>
                         </p>
@@ -123,11 +123,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>10.</td>
-                    <td colspan="5">Implementation of RSA algorithm using Big Integer Library (GMP Library)</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Sanchari Sengupta</td>
-                    <td colspan="5">2006</td>
-                    <td colspan="5">
+                    <td colSpan="5">Implementation of RSA algorithm using Big Integer Library (GMP Library)</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Sanchari Sengupta</td>
+                    <td colSpan="5">2006</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A10">Abstract10.</a>
                         </p>
@@ -137,13 +137,13 @@ export default function MeThesis() {
 
                 <tr>
                     <td>6.</td>
-                    <td colspan="5">
+                    <td colSpan="5">
                         Factors affecting Wireless Local Area Network Performance And few ways to circumvent them
                     </td>
-                    <td colspan="5">Wireless LAN</td>
-                    <td colspan="5">Avirup Dasgupta</td>
-                    <td colspan="5">2005</td>
-                    <td colspan="5">
+                    <td colSpan="5">Wireless LAN</td>
+                    <td colSpan="5">Avirup Dasgupta</td>
+                    <td colSpan="5">2005</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A6">Abstract6.</a>
                         </p>
@@ -154,11 +154,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>7.</td>
-                    <td colspan="5">Comparison of different matrix multiplication algorithms in cluster</td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">Suman Kalyan Pandit</td>
-                    <td colspan="5">2006</td>
-                    <td colspan="5">
+                    <td colSpan="5">Comparison of different matrix multiplication algorithms in cluster</td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">Suman Kalyan Pandit</td>
+                    <td colSpan="5">2006</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A7">Abstract7.</a>
                         </p>
@@ -169,11 +169,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>8.</td>
-                    <td colspan="5">A variable length hash code generation and its application</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Sanghamitra Kundu</td>
-                    <td colspan="5">2006</td>
-                    <td colspan="5">
+                    <td colSpan="5">A variable length hash code generation and its application</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Sanghamitra Kundu</td>
+                    <td colSpan="5">2006</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A8">Abstract8.</a>
                         </p>
@@ -184,11 +184,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>9.</td>
-                    <td colspan="5">Analysis of quality management of software through metrics</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">Debapriyo Kar</td>
-                    <td colspan="5">2006</td>
-                    <td colspan="5">
+                    <td colSpan="5">Analysis of quality management of software through metrics</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">Debapriyo Kar</td>
+                    <td colSpan="5">2006</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A9">Abstract9.</a>
                         </p>
@@ -199,11 +199,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>10.</td>
-                    <td colspan="5">Implementation of RSA algorithm using Big Integer Library (GMP Library)</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Sanchari Sengupta</td>
-                    <td colspan="5">2006</td>
-                    <td colspan="5">
+                    <td colSpan="5">Implementation of RSA algorithm using Big Integer Library (GMP Library)</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Sanchari Sengupta</td>
+                    <td colSpan="5">2006</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A10">Abstract10.</a>
                         </p>
@@ -213,11 +213,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>11.</td>
-                    <td colspan="5">Key Generation Using Elliptic Curve Cryptography</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Abhijit Mitra</td>
-                    <td colspan="5">2007</td>
-                    <td colspan="5">
+                    <td colSpan="5">Key Generation Using Elliptic Curve Cryptography</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Abhijit Mitra</td>
+                    <td colSpan="5">2007</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A11">Abstract11.</a>
                         </p>
@@ -228,11 +228,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>12.</td>
-                    <td colspan="5">Implementation of Stream Cipher</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Chhanda Mondal</td>
-                    <td colspan="5">2007</td>
-                    <td colspan="5">
+                    <td colSpan="5">Implementation of Stream Cipher</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Chhanda Mondal</td>
+                    <td colSpan="5">2007</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A12">Abstract12.</a>
                         </p>
@@ -243,11 +243,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>13.</td>
-                    <td colspan="5">Implementation of Elliptic Curve Encryption and Decryption</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Shila Pal</td>
-                    <td colspan="5">2007</td>
-                    <td colspan="5">
+                    <td colSpan="5">Implementation of Elliptic Curve Encryption and Decryption</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Shila Pal</td>
+                    <td colSpan="5">2007</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A13">Abstract13.</a>
                         </p>
@@ -258,11 +258,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>14.</td>
-                    <td colspan="5">Oracle Performance Tuning</td>
-                    <td colspan="5">Database</td>
-                    <td colspan="5">Angshuman Talapatra</td>
-                    <td colspan="5">2007</td>
-                    <td colspan="5">
+                    <td colSpan="5">Oracle Performance Tuning</td>
+                    <td colSpan="5">Database</td>
+                    <td colSpan="5">Angshuman Talapatra</td>
+                    <td colSpan="5">2007</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A14">Abstract14.</a>
                         </p>
@@ -273,13 +273,13 @@ export default function MeThesis() {
 
                 <tr>
                     <td>15.</td>
-                    <td colspan="5">Implementation of a simple Integer Factorization Method Using Big Integer Library(GMP
+                    <td colSpan="5">Implementation of a simple Integer Factorization Method Using Big Integer Library(GMP
                         Library)
                     </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Gopal Jana</td>
-                    <td colspan="5">2007</td>
-                    <td colspan="5">
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Gopal Jana</td>
+                    <td colSpan="5">2007</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A15">Abstract15.</a>
                         </p>
@@ -288,11 +288,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>16.</td>
-                    <td colspan="5">Optimal Parallel Matrix Multiplication Algorithm in Cluster using MPI</td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">Padma Rajesh V</td>
-                    <td colspan="5">2007</td>
-                    <td colspan="5">
+                    <td colSpan="5">Optimal Parallel Matrix Multiplication Algorithm in Cluster using MPI</td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">Padma Rajesh V</td>
+                    <td colSpan="5">2007</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A16">Abstract16.</a>
                         </p>
@@ -303,11 +303,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>17.</td>
-                    <td colspan="5">Elliptic Curve Cryptography using Large Integer Library</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Kamal Paul</td>
-                    <td colspan="5">2008</td>
-                    <td colspan="5">
+                    <td colSpan="5">Elliptic Curve Cryptography using Large Integer Library</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Kamal Paul</td>
+                    <td colSpan="5">2008</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A17">Abstract17.</a>
                         </p>
@@ -318,12 +318,12 @@ export default function MeThesis() {
 
                 <tr>
                     <td>18.</td>
-                    <td colspan="5">Implementation of self initializing Quadratic Sieve using Big Integer Library(GMP Library)
+                    <td colSpan="5">Implementation of self initializing Quadratic Sieve using Big Integer Library(GMP Library)
                     </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Sukanta De</td>
-                    <td colspan="5">2008</td>
-                    <td colspan="5">
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Sukanta De</td>
+                    <td colSpan="5">2008</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A18">Abstract18.</a>
                         </p>
@@ -333,11 +333,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>19.</td>
-                    <td colspan="5">Parallel I/O</td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">Sougata Sarkar</td>
-                    <td colspan="5">2008</td>
-                    <td colspan="5">
+                    <td colSpan="5">Parallel I/O</td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">Sougata Sarkar</td>
+                    <td colSpan="5">2008</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A19">Abstract19.</a>
                         </p>
@@ -348,11 +348,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>20.</td>
-                    <td colspan="5">Service Oriented Architecture For a World Class Power Utility Company</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">Aniruddha Kar</td>
-                    <td colspan="5">2008</td>
-                    <td colspan="5">
+                    <td colSpan="5">Service Oriented Architecture For a World Class Power Utility Company</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">Aniruddha Kar</td>
+                    <td colSpan="5">2008</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A20">Abstract20.</a>
                         </p>
@@ -363,11 +363,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>21.</td>
-                    <td colspan="5">Implementing 100 digit Elliptic Curve Cryptography </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Swati Samanta</td>
-                    <td colspan="5">2009</td>
-                    <td colspan="5">
+                    <td colSpan="5">Implementing 100 digit Elliptic Curve Cryptography </td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Swati Samanta</td>
+                    <td colSpan="5">2009</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A21">Abstract21.</a>
                         </p>
@@ -378,11 +378,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>22.</td>
-                    <td colspan="5">Parallel Sorting by Regular Sampling</td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">Arnab Sundar Nayak</td>
-                    <td colspan="5">2009</td>
-                    <td colspan="5">
+                    <td colSpan="5">Parallel Sorting by Regular Sampling</td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">Arnab Sundar Nayak</td>
+                    <td colSpan="5">2009</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A22">Abstract22.</a>
                         </p>
@@ -393,11 +393,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>23.</td>
-                    <td colspan="5">Parallel Quadritic Sieve</td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">Sumanta Mandal</td>
-                    <td colspan="5">2009</td>
-                    <td colspan="5">
+                    <td colSpan="5">Parallel Quadritic Sieve</td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">Sumanta Mandal</td>
+                    <td colSpan="5">2009</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A23">Abstract23.</a>
                         </p>
@@ -408,11 +408,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>24.</td>
-                    <td colspan="5">Vulnerabilities of online financial networking systems- Its Detection and Prevention</td>
-                    <td colspan="5">Network Security</td>
-                    <td colspan="5">Arpan Kumar Sen</td>
-                    <td colspan="5">2009</td>
-                    <td colspan="5">
+                    <td colSpan="5">Vulnerabilities of online financial networking systems- Its Detection and Prevention</td>
+                    <td colSpan="5">Network Security</td>
+                    <td colSpan="5">Arpan Kumar Sen</td>
+                    <td colSpan="5">2009</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A24">Abstract24.</a>
                         </p>
@@ -422,11 +422,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>25.</td>
-                    <td colspan="5">Breaking Elliptic Curve Cryptosystem</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Pradip Kumar Banerjee</td>
-                    <td colspan="5">2010</td>
-                    <td colspan="5">
+                    <td colSpan="5">Breaking Elliptic Curve Cryptosystem</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Pradip Kumar Banerjee</td>
+                    <td colSpan="5">2010</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A25">Abstract25.</a>
                         </p>
@@ -437,11 +437,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>26.</td>
-                    <td colspan="5">Parallel Sorting by Regular Sampling using Pthreads</td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">Smritikona Barai</td>
-                    <td colspan="5">2010</td>
-                    <td colspan="5">
+                    <td colSpan="5">Parallel Sorting by Regular Sampling using Pthreads</td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">Smritikona Barai</td>
+                    <td colSpan="5">2010</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A26">Abstract26.</a>
                         </p>
@@ -451,11 +451,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>27.</td>
-                    <td colspan="5">Parallel Gaussian Elimination with Partial Pivoting using Pthreads</td>
-                    <td colspan="5"> Parallel Processing</td>
-                    <td colspan="5">Sonali Mukherjee</td>
-                    <td colspan="5">2010</td>
-                    <td colspan="5">
+                    <td colSpan="5">Parallel Gaussian Elimination with Partial Pivoting using Pthreads</td>
+                    <td colSpan="5"> Parallel Processing</td>
+                    <td colSpan="5">Sonali Mukherjee</td>
+                    <td colSpan="5">2010</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A27">Abstract27.</a>
                         </p>
@@ -466,11 +466,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>28.</td>
-                    <td colspan="5"> Implementing Elliptic Curve based Elgamal Cryptosystem and Diffie - Hellman Key Exchange</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Parama De</td>
-                    <td colspan="5">2011</td>
-                    <td colspan="5">
+                    <td colSpan="5"> Implementing Elliptic Curve based Elgamal Cryptosystem and Diffie - Hellman Key Exchange</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Parama De</td>
+                    <td colSpan="5">2011</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A28">Abstract28.</a>
                         </p>
@@ -480,11 +480,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>29.</td>
-                    <td colspan="5"> Parallel Counting Sort</td>
-                    <td colspan="5">Parallel Procesing</td>
-                    <td colspan="5">Ananya Chakraborty</td>
-                    <td colspan="5">2011</td>
-                    <td colspan="5">
+                    <td colSpan="5"> Parallel Counting Sort</td>
+                    <td colSpan="5">Parallel Procesing</td>
+                    <td colSpan="5">Ananya Chakraborty</td>
+                    <td colSpan="5">2011</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A29">Abstract29.</a>
                         </p>
@@ -494,11 +494,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>30.</td>
-                    <td colspan="5"> Parallel MD6</td>
-                    <td colspan="5">Cryptography and Parallel Processing</td>
-                    <td colspan="5">Sriya Basumallik.</td>
-                    <td colspan="5">2011</td>
-                    <td colspan="5">
+                    <td colSpan="5"> Parallel MD6</td>
+                    <td colSpan="5">Cryptography and Parallel Processing</td>
+                    <td colSpan="5">Sriya Basumallik.</td>
+                    <td colSpan="5">2011</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A30">Abstract30.</a>
                         </p>
@@ -508,11 +508,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>31.</td>
-                    <td colspan="5"> Modified Playfair Cipher with Rectangular Matrix</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Sanjay Basu</td>
-                    <td colspan="5">2012</td>
-                    <td colspan="5">
+                    <td colSpan="5"> Modified Playfair Cipher with Rectangular Matrix</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Sanjay Basu</td>
+                    <td colSpan="5">2012</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A31">Abstract31.</a>
                         </p>
@@ -521,11 +521,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>32.</td>
-                    <td colspan="5"> Writing Lock-Free Code using Software Transactional Memory</td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">Ryan Saptarshi Ray</td>
-                    <td colspan="5">2012</td>
-                    <td colspan="5">
+                    <td colSpan="5"> Writing Lock-Free Code using Software Transactional Memory</td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">Ryan Saptarshi Ray</td>
+                    <td colSpan="5">2012</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A32">Abstract32.</a>
                         </p>
@@ -534,11 +534,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>33.</td>
-                    <td colspan="5"> Multi Objective Association Rule Mining using Evolutionary Approaches</td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">Jayashree Piri</td>
-                    <td colspan="5">2012</td>
-                    <td colspan="5">
+                    <td colSpan="5"> Multi Objective Association Rule Mining using Evolutionary Approaches</td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">Jayashree Piri</td>
+                    <td colSpan="5">2012</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A33">Abstract33.</a>
                         </p>
@@ -547,11 +547,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>34.</td>
-                    <td colspan="5">Message Mapping in Elliptic Curve Cryptography</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Camelia Debnath</td>
-                    <td colspan="5">2012</td>
-                    <td colspan="5">
+                    <td colSpan="5">Message Mapping in Elliptic Curve Cryptography</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Camelia Debnath</td>
+                    <td colSpan="5">2012</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A34">Abstract34.</a>
                         </p>
@@ -562,11 +562,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>35.</td>
-                    <td colspan="5"> Data Warehousing Estimation Guideline</td>
-                    <td colspan="5">Database</td>
-                    <td colspan="5">Santanu Roy</td>
-                    <td colspan="5">2012</td>
-                    <td colspan="5">
+                    <td colSpan="5"> Data Warehousing Estimation Guideline</td>
+                    <td colSpan="5">Database</td>
+                    <td colSpan="5">Santanu Roy</td>
+                    <td colSpan="5">2012</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A35">Abstract35.</a>
                         </p>
@@ -575,11 +575,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>36.</td>
-                    <td colspan="5">Automation of Coding Standards Checking for Procedures and Packages in Procedural Language</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">Sangita Das</td>
-                    <td colspan="5">2012</td>
-                    <td colspan="5">
+                    <td colSpan="5">Automation of Coding Standards Checking for Procedures and Packages in Procedural Language</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">Sangita Das</td>
+                    <td colSpan="5">2012</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A36">Abstract36.</a>
                         </p>
@@ -588,11 +588,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>37.</td>
-                    <td colspan="5">A COST EFFECTIVE AD-HOC REPORT TOOL</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">ANUPAMA KUNDU(DEY)</td>
-                    <td colspan="5">2013</td>
-                    <td colspan="5">
+                    <td colSpan="5">A COST EFFECTIVE AD-HOC REPORT TOOL</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">ANUPAMA KUNDU(DEY)</td>
+                    <td colSpan="5">2013</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A37">Abstract37.</a>
                         </p>
@@ -602,11 +602,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>38.</td>
-                    <td colspan="5"> DIGITAL SIGNATURE USING ELLIPTIC CURVE</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">AMITAVA ROY</td>
-                    <td colspan="5">2013</td>
-                    <td colspan="5">
+                    <td colSpan="5"> DIGITAL SIGNATURE USING ELLIPTIC CURVE</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">AMITAVA ROY</td>
+                    <td colSpan="5">2013</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A38">Abstract38.</a>
                         </p>
@@ -616,11 +616,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>39.</td>
-                    <td colspan="5"> FAULT TOLERANCE IN MPI PARADIGM</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">SRI PRAMODA VANAPALLI</td>
-                    <td colspan="5">2013</td>
-                    <td colspan="5">
+                    <td colSpan="5"> FAULT TOLERANCE IN MPI PARADIGM</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">SRI PRAMODA VANAPALLI</td>
+                    <td colSpan="5">2013</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A39">Abstract39.</a>
                         </p>
@@ -630,11 +630,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>40.</td>
-                    <td colspan="5"> PERFORMANCE ANALYSIS OF NIST SHA-3 KECCAK SPONGE FUNCTION</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">ANANYA CHOWDHURY</td>
-                    <td colspan="5">2013</td>
-                    <td colspan="5">
+                    <td colSpan="5"> PERFORMANCE ANALYSIS OF NIST SHA-3 KECCAK SPONGE FUNCTION</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">ANANYA CHOWDHURY</td>
+                    <td colSpan="5">2013</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A40">Abstract40.</a>
                         </p>
@@ -644,11 +644,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>41.</td>
-                    <td colspan="5"> PERFORMANCE ANALYSIS OF A DISTRIBUTED FILE SYSTEM</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">DIBYENDU KARMAKAR</td>
-                    <td colspan="5">2013</td>
-                    <td colspan="5">
+                    <td colSpan="5"> PERFORMANCE ANALYSIS OF A DISTRIBUTED FILE SYSTEM</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">DIBYENDU KARMAKAR</td>
+                    <td colSpan="5">2013</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A41">Abstract41.</a>
                         </p>
@@ -658,11 +658,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>42.</td>
-                    <td colspan="5">REAL TIME TRIP DETECTION TECHNIQUE FOR A TRANSPORTATION SYSTEM</td>
-                    <td colspan="5">Software Engineering</td>
-                    <td colspan="5">ARINDAM HALDER</td>
-                    <td colspan="5">2013</td>
-                    <td colspan="5">
+                    <td colSpan="5">REAL TIME TRIP DETECTION TECHNIQUE FOR A TRANSPORTATION SYSTEM</td>
+                    <td colSpan="5">Software Engineering</td>
+                    <td colSpan="5">ARINDAM HALDER</td>
+                    <td colSpan="5">2013</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A42">Abstract42.</a>
                         </p>
@@ -672,15 +672,15 @@ export default function MeThesis() {
 
                 <tr>
                     <td>43.</td>
-                    <td colspan="5">
+                    <td colSpan="5">
                         IMPLEMENTATION OF KETCHUP, A SHA3 (KECCAK) BASED PSEUDO RANDOM NUMBER GENERATOR WITH
                         REGULAR
                         RESEEDING
                     </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">ANTIKA SINHA</td>
-                    <td colspan="5">2014</td>
-                    <td colspan="5">
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">ANTIKA SINHA</td>
+                    <td colSpan="5">2014</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A43">Abstract43.</a>
                         </p>
@@ -689,11 +689,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>44.</td>
-                    <td colspan="5">PERFORMANCE OPTIMIZATION OF CONTENT DISPLAY IN MOBILE DEVICES BY ASSET CACHING</td>
-                    <td colspan="5">Web Technology</td>
-                    <td colspan="5">ANUKTA CHATTOPADHYAY</td>
-                    <td colspan="5">2014</td>
-                    <td colspan="5">
+                    <td colSpan="5">PERFORMANCE OPTIMIZATION OF CONTENT DISPLAY IN MOBILE DEVICES BY ASSET CACHING</td>
+                    <td colSpan="5">Web Technology</td>
+                    <td colSpan="5">ANUKTA CHATTOPADHYAY</td>
+                    <td colSpan="5">2014</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A44">Abstract44.</a>
                         </p>
@@ -702,14 +702,14 @@ export default function MeThesis() {
 
                 <tr>
                     <td>45.</td>
-                    <td colspan="5">
+                    <td colSpan="5">
                         APPLICATION OF SOFTWARE TRANSACTIONAL
                         MEMORY IN THREAD BASED SYNCHRONIZATION
                     </td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">RUP KAMAL</td>
-                    <td colspan="5">2014</td>
-                    <td colspan="5">
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">RUP KAMAL</td>
+                    <td colSpan="5">2014</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A45">Abstract45.</a>
                         </p>
@@ -718,11 +718,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>46.</td>
-                    <td colspan="5">REAL TIME LOW LATENCY DATA PROCESSING USING STM </td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">PRASUN BHATTACHARJEE</td>
-                    <td colspan="5">2015</td>
-                    <td colspan="5">
+                    <td colSpan="5">REAL TIME LOW LATENCY DATA PROCESSING USING STM </td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">PRASUN BHATTACHARJEE</td>
+                    <td colSpan="5">2015</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A46">Abstract46.</a>
                         </p>
@@ -734,11 +734,11 @@ export default function MeThesis() {
 
                     <td>47.</td>
 
-                    <td colspan="5">Fast Real Time Secure Communication in Smart Grids and Smart Devices </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">SUMIT GHOSH</td>
-                    <td colspan="5">2015</td>
-                    <td colspan="5">
+                    <td colSpan="5">Fast Real Time Secure Communication in Smart Grids and Smart Devices </td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">SUMIT GHOSH</td>
+                    <td colSpan="5">2015</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A47">Abstract47.</a>
                         </p>
@@ -751,11 +751,11 @@ export default function MeThesis() {
 
                     <td>48.</td>
 
-                    <td colspan="5">Reasoning on Linked Sensor Data : A Case Study on a Smart Food Recommendation System </td>
-                    <td colspan="5">Artificial Intelligence</td>
-                    <td colspan="5">SNEHASIS BANERJEE</td>
-                    <td colspan="5">2015</td>
-                    <td colspan="5">
+                    <td colSpan="5">Reasoning on Linked Sensor Data : A Case Study on a Smart Food Recommendation System </td>
+                    <td colSpan="5">Artificial Intelligence</td>
+                    <td colSpan="5">SNEHASIS BANERJEE</td>
+                    <td colSpan="5">2015</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A48">Abstract48.</a>
                         </p>
@@ -765,13 +765,13 @@ export default function MeThesis() {
 
                 <tr>
                     <td>49.</td>
-                    <td colspan="5">A Solution of Dining Philosophers Problem in Distributed Shared Memory Environment using
+                    <td colSpan="5">A Solution of Dining Philosophers Problem in Distributed Shared Memory Environment using
                         OpenSHMEM
                     </td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">ASHISH ANAND</td>
-                    <td colspan="5">2016</td>
-                    <td colspan="5">
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">ASHISH ANAND</td>
+                    <td colSpan="5">2016</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A49">Abstract49.</a>
                         </p>
@@ -780,11 +780,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>50.</td>
-                    <td colspan="5">Writing Parallel Programs using OpenSHMEM </td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">MOSIHUR RAHMAN</td>
-                    <td colspan="5">2016</td>
-                    <td colspan="5">
+                    <td colSpan="5">Writing Parallel Programs using OpenSHMEM </td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">MOSIHUR RAHMAN</td>
+                    <td colSpan="5">2016</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A50">Abstract50.</a>
                         </p>
@@ -793,11 +793,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>51.</td>
-                    <td colspan="5">ID Based Encrypted Chat Application in Java </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">SUJOY KUMAR DAS</td>
-                    <td colspan="5">2016</td>
-                    <td colspan="5">
+                    <td colSpan="5">ID Based Encrypted Chat Application in Java </td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">SUJOY KUMAR DAS</td>
+                    <td colSpan="5">2016</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A51">Abstract51.</a>
                         </p>
@@ -806,11 +806,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>52.</td>
-                    <td colspan="5">IMAGE EDGE DETECTION USING DIFFERENT PARALLEL PROGRAMMING TECHNIQUES </td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">DEBENDRANATH DAS</td>
-                    <td colspan="5">2017</td>
-                    <td colspan="5">
+                    <td colSpan="5">IMAGE EDGE DETECTION USING DIFFERENT PARALLEL PROGRAMMING TECHNIQUES </td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">DEBENDRANATH DAS</td>
+                    <td colSpan="5">2017</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A52">Abstract52.</a>
                         </p>
@@ -819,11 +819,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>53.</td>
-                    <td colspan="5">BILINEAR PAIRINGS AND THEIR APPLICATIONS IN CRYPTOGRAPHY AND NETWORK SECURITY </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">TAPOBRATA DHAR</td>
-                    <td colspan="5">2017</td>
-                    <td colspan="5">
+                    <td colSpan="5">BILINEAR PAIRINGS AND THEIR APPLICATIONS IN CRYPTOGRAPHY AND NETWORK SECURITY </td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">TAPOBRATA DHAR</td>
+                    <td colSpan="5">2017</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A53">Abstract53.</a>
                         </p>
@@ -832,11 +832,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>54.</td>
-                    <td colspan="5">A SOLUTION TO TRAFFIC CONGESTION IN SHARED MEMORY ENVIRONMENT </td>
-                    <td colspan="5">Parallel Processing</td>
-                    <td colspan="5">PARTHA PRATIM SINHA</td>
-                    <td colspan="5">2017</td>
-                    <td colspan="5">
+                    <td colSpan="5">A SOLUTION TO TRAFFIC CONGESTION IN SHARED MEMORY ENVIRONMENT </td>
+                    <td colSpan="5">Parallel Processing</td>
+                    <td colSpan="5">PARTHA PRATIM SINHA</td>
+                    <td colSpan="5">2017</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A54">Abstract54.</a>
                         </p>
@@ -845,11 +845,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>55.</td>
-                    <td colspan="5">Performance Analysis of Elliptic-Curve Multiplication Algorithm</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">SATYABRATA RAY</td>
-                    <td colspan="5">2017</td>
-                    <td colspan="5">
+                    <td colSpan="5">Performance Analysis of Elliptic-Curve Multiplication Algorithm</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">SATYABRATA RAY</td>
+                    <td colSpan="5">2017</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A55">Abstract55.</a>
                         </p>
@@ -858,11 +858,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>56.</td>
-                    <td colspan="5">Performance Characterization of the Canny Edge Detection Algorithm in CPU-GPU environment</td>
-                    <td colspan="5">GPU Computing</td>
-                    <td colspan="5">JOYMALLYA MAJI</td>
-                    <td colspan="5">2018</td>
-                    <td colspan="5">
+                    <td colSpan="5">Performance Characterization of the Canny Edge Detection Algorithm in CPU-GPU environment</td>
+                    <td colSpan="5">GPU Computing</td>
+                    <td colSpan="5">JOYMALLYA MAJI</td>
+                    <td colSpan="5">2018</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A56">Abstract56.</a>
                         </p>
@@ -871,13 +871,13 @@ export default function MeThesis() {
 
                 <tr>
                     <td>57.</td>
-                    <td colspan="5">Secure Three Factor Authentication Scheme using Bilinear Pairing in Multi-Server
+                    <td colSpan="5">Secure Three Factor Authentication Scheme using Bilinear Pairing in Multi-Server
                         Architecture
                     </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">SUDIPTA PAUL</td>
-                    <td colspan="5">2018</td>
-                    <td colspan="5">
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">SUDIPTA PAUL</td>
+                    <td colSpan="5">2018</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A57">Abstract57.</a>
                         </p>
@@ -886,11 +886,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>58.</td>
-                    <td colspan="5">Advance Approach in Finding Order of a Point on Elliptic Curve </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">SOUVIKA SARKAR</td>
-                    <td colspan="5">2018</td>
-                    <td colspan="5">
+                    <td colSpan="5">Advance Approach in Finding Order of a Point on Elliptic Curve </td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">SOUVIKA SARKAR</td>
+                    <td colSpan="5">2018</td>
+                    <td colSpan="5">
                         <p>
                             <a href="#A58">Abstract58.</a>
                         </p>
@@ -899,11 +899,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>59.</td>
-                    <td colspan="5">DESIGN OF BLOCKCHAIN BASED ANNONYMOUS SECURE VOTING SYSTEM USING SMART CONTRACT </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Biswajit Das</td>
-                    <td colspan="5">2019</td>
-                    <td colspan="5">
+                    <td colSpan="5">DESIGN OF BLOCKCHAIN BASED ANNONYMOUS SECURE VOTING SYSTEM USING SMART CONTRACT </td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Biswajit Das</td>
+                    <td colSpan="5">2019</td>
+                    <td colSpan="5">
                         <p><a href="#A59">Abstract59.</a></p>
                     </td>
                 </tr>
@@ -911,11 +911,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>60.</td>
-                    <td colspan="5">EFFICIENT APPROACH OF FINDING CURVE ORDER</td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Zeeshan Mehboob</td>
-                    <td colspan="5">2019</td>
-                    <td colspan="5">
+                    <td colSpan="5">EFFICIENT APPROACH OF FINDING CURVE ORDER</td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Zeeshan Mehboob</td>
+                    <td colSpan="5">2019</td>
+                    <td colSpan="5">
                         <p><a href="#A60">Abstract60.</a></p>
                     </td>
                 </tr>
@@ -923,35 +923,35 @@ export default function MeThesis() {
 
                 <tr>
                     <td>61.</td>
-                    <td colspan="5">DESIGN OF SECURE AND SCALABLE PERMISSIONED BLOCKCHAIN NETWORK FOR DIGITAL VOTING </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Sayan Datta</td>
-                    <td colspan="5">2020</td>
-                    <td colspan="5">
+                    <td colSpan="5">DESIGN OF SECURE AND SCALABLE PERMISSIONED BLOCKCHAIN NETWORK FOR DIGITAL VOTING </td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Sayan Datta</td>
+                    <td colSpan="5">2020</td>
+                    <td colSpan="5">
                         <p><a href="#A61">Abstract61.</a></p>
                     </td>
                 </tr>
 
                 <tr>
                     <td>62.</td>
-                    <td colspan="5">GLOBAL SNAPSHOT ALGORITHM IN A DYNAMIC DISTRIBUTED MESSAGE-PASSING SYSTEM </td>
-                    <td colspan="5">Distributed System</td>
-                    <td colspan="5">Joy Malakar</td>
-                    <td colspan="5">2020</td>
-                    <td colspan="5">
+                    <td colSpan="5">GLOBAL SNAPSHOT ALGORITHM IN A DYNAMIC DISTRIBUTED MESSAGE-PASSING SYSTEM </td>
+                    <td colSpan="5">Distributed System</td>
+                    <td colSpan="5">Joy Malakar</td>
+                    <td colSpan="5">2020</td>
+                    <td colSpan="5">
                         <p><a href="#A62">Abstract62.</a></p>
                     </td>
                 </tr>
 
                 <tr>
                     <td>63.</td>
-                    <td colspan="5">A Scalable, Secure and Lightweight IoT Device Connector Service Using Elliptic Curve
+                    <td colSpan="5">A Scalable, Secure and Lightweight IoT Device Connector Service Using Elliptic Curve
                         Cryptography
                         and MQTT </td>
-                    <td colspan="5">IOT</td>
-                    <td colspan="5">Dhiman Chattopadhyay</td>
-                    <td colspan="5">2020</td>
-                    <td colspan="5">
+                    <td colSpan="5">IOT</td>
+                    <td colSpan="5">Dhiman Chattopadhyay</td>
+                    <td colSpan="5">2020</td>
+                    <td colSpan="5">
                         <p><a href="#A63">Abstract63.</a></p>
                     </td>
                 </tr>
@@ -959,11 +959,11 @@ export default function MeThesis() {
 
                 <tr>
                     <td>64.</td>
-                    <td colspan="5">Arithmetic Tools for Different Elliptic Curve </td>
-                    <td colspan="5">Cryptography</td>
-                    <td colspan="5">Sujay Paul</td>
-                    <td colspan="5">2021</td>
-                    <td colspan="5">
+                    <td colSpan="5">Arithmetic Tools for Different Elliptic Curve </td>
+                    <td colSpan="5">Cryptography</td>
+                    <td colSpan="5">Sujay Paul</td>
+                    <td colSpan="5">2021</td>
+                    <td colSpan="5">
                         <p><a href="#A64">Abstract64.</a></p>
                     </td>
                 </tr>

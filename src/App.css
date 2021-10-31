@@ -3,9 +3,10 @@
     src: url("./fonts/RockSalt-Regular.ttf") format("truetype");
 }
 
-.App {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .switch-wrapper {
@@ -504,4 +505,189 @@ About Page Section
 .Thesis p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
+}
+
+/*--------------------------------------------------------------
+--------------------------BE Projects---------------------------
+---------------------------------------------------------------*/
+
+.BE_projects_container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2em 0 2em 0;
+}
+
+.BE_projects_container .heading-primary {
+    margin: 2rem 0 3rem 0;
+    text-align: center;
+    border-bottom: 2px solid rgba(29, 29, 29, 0.6);
+}
+
+.BE_projects_container .heading-primary h1 {
+    font-size: 90px;
+    font-family: "FF Good Pro";
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.BE_projects_container .heading-primary p {
+    font-size: 1.65rem;
+    font-family: 'Bad Script', cursive;
+    font-weight: 700;
+}
+
+/* 
+.BE_projects_container .accordion dl, .BE_projects_container .accordion-list {
+    border: 1px solid #ddd;
+} */
+
+/* .BE_projects_container .accordion dl:after, .BE_projects_container .accordion-list:after {
+    content: "";
+    display: block;
+    height: 1em;
+    width: 100%;
+    background-color: #2ba659;
+} */
+
+.BE_projects_container .accordion dd, .BE_projects_container .accordion__panel {
+    background-color: #ede9e8;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.BE_projects_container .accordion p {
+    padding: 1em 2em 1em 2em;
+}
+
+.BE_projects_container .accordion {
+    position: relative;
+    background-color: #ede9e8;
+    box-shadow: 0px 5px 15px 5px #a7a9be;
+}
+
+.BE_projects_container .accordionTitle, .BE_projects_container .accordion__Heading {
+    background-color: #2B3252;
+    text-align: center;
+    padding: 1.4rem;
+    display: block;
+    text-decoration: none;
+    color: #EC4D37;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.BE_projects_container .accordionTitle {
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Bad Script', cursive;
+}
+
+.BE_projects_container .accordionTitle:before, .BE_projects_container .accordion__Heading:before {
+    content: "+";
+    font-size: 1.65em;
+    line-height: 0.5rem;
+    float: left;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 8px;
+}
+
+.BE_projects_container .accordionTitle:hover, .BE_projects_container .accordion__Heading:hover {
+    background-color: #0F0E17;
+    color: #FF8906;
+}
+
+.BE_projects_container .accordionTitleActive, .BE_projects_container .accordionTitle.is-expanded {
+    background-color: #0F0E17;
+    color: #FF8906;
+}
+
+.BE_projects_container .accordionTitleActive:before, .BE_projects_container .accordionTitle.is-expanded:before {
+    transform: rotate(-225deg);
+}
+
+.BE_projects_container .accordionItem {
+    height: auto;
+    overflow: hidden;
+    max-height: 50rem;
+    padding: 0rem 1.5rem 0 1.5rem;
+    transition: max-height 1s ease-in-out;
+}
+
+.BE_projects_container .accordionItem.is-collapsed {
+    max-height: 0;
+}
+
+/* .BE_projects_container .no-js .accordionItem.is-collapsed {
+    max-height: auto;
+} */
+
+.animateIn {
+    -webkit-animation: accordionIn 0.65s normal ease-out both 1;
+    animation: accordionIn 0.65s normal ease-out both 1;
+}
+
+.animateOut {
+    -webkit-animation: accordionOut 0.65s alternate ease-out both 1;
+    animation: accordionOut 0.65s alternate ease-out both 1;
+}
+
+@-webkit-keyframes accordionIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9) rotateX(-60deg);
+        transform-origin: 50% 0;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes accordionIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9) rotateX(-60deg);
+        transform-origin: 50% 0;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes accordionOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.9) rotateX(-60deg);
+    }
+}
+
+@keyframes accordionOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.9) rotateX(-60deg);
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .BE_projects_container .accordionItem {
+        max-height: 50em;
+        transition: max-height 0.5s;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .BE_projects_container .accordionItem {
+        padding: 0;
+    }
 }

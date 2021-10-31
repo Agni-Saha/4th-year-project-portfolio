@@ -6,7 +6,8 @@ import Contact from './pages/Contact'
 import Home from "./pages/Home"
 import Projects from './pages/Projects'
 import Navbar from './components/Navbar'
-import ME_Thesis from "./pages/Me-Thesis"
+import ME_Thesis from "./pages/Me_Thesis"
+import BE_Projects from './pages/Be_Projects'
 
 import { Route, Redirect, BrowserRouter as Router } from 'react-router-dom'
 import { AnimatedSwitch } from 'react-router-transition';
@@ -15,7 +16,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 
 function App() {
     return (
-        <div>
+        <div className="App">
             <Router>
                 <Navbar />
                 <AnimatedSwitch
@@ -29,6 +30,7 @@ function App() {
                     <Route path="/projects" exact component={Projects} />
                     <Route path="/contact" exact component={Contact} />
                     <Route path="/me_thesis" exact component={ME_Thesis} />
+                    <Route path="/be_projects" exact component={BE_Projects} />
                     <Redirect to="/" exact />
                 </AnimatedSwitch>
             </Router>

@@ -17,7 +17,6 @@ function Contact() {
 
     const FormSubmit = (event) => {
         event.preventDefault()
-        console.log(name, email)
         setName("")
         setEmail("")
         setMessage("")

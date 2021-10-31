@@ -1,0 +1,61 @@
+.BE_card_container {
+    padding: 1rem 1.5rem;
+    margin: 0.95rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #0f0e17;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px 0px #6c757d;
+    background-color: #ede9e8;
+}
+
+.BE_card_title {
+    max-width: 450px;
+    font-size: 1.25rem;
+    font-family: 'Aref Ruqaa', serif;
+    color: #0f0e17;
+    font-weight: 700;
+}
+
+.BE_card_button {
+    padding: 8px 24px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #ff8906, #ffaa48, #ff8906);
+    background-size: 200%;
+    color: #0f0e17;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 6px;
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+
+.BE_card_button:hover {
+    background-position: right;
+}
+
+@media screen and (max-width: 768px) {
+    .BE_card_container {
+        padding: 1rem 10px;
+    }
+    .BE_card_title {
+        font-size: 0.95rem;
+        max-width: 250px;
+    }
+    .BE_card_button {
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .BE_card_title {
+        font-size: 0.8rem;
+        max-width: 250px;
+    }
+    .BE_card_button {
+        padding: 4px 12px;
+    }
+}
