@@ -87,13 +87,13 @@ function Contact() {
                                             <span className="icon">
                                                 <i className="fas fa-phone-alt"></i>
                                             </span>
-                                            <span className="text">+91 834 698 3581</span>
+                                            <span className="text">+91 990 312 0869</span>
                                         </a></li>
                                         <li><a href="#filluplater">
                                             <span className="icon">
                                                 <i className="far fa-envelope"></i>
                                             </span>
-                                            <span className="text">Utpal.Ray@JadavpurUniversity.IN</span>
+                                            <span className="text">utpal.ray@jadavpuruniversity.in</span>
                                         </a></li>
                                         <li><a href="#filluplater">
                                             <span className="icon">

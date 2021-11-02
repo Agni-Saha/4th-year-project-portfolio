@@ -89,7 +89,7 @@ function About() {
 
                                     <AboutInfoItem
                                         title="Operating Systems"
-                                        items={['UX', 'UNIX', 'SOLARIS', 'CTRON', 'iRMX', 'LINUX', 'Windows']}
+                                        items={['UX', 'UNIX', 'SOLARIS', 'Ubuntu', 'CTRON', 'iRMX', 'LINUX', 'Windows']}
                                         topMargin={false}
                                     />
                                     <AboutInfoItem
@@ -114,7 +114,7 @@ function About() {
                                     />
                                     <AboutInfoItem
                                         title="Tools"
-                                        items={['Version Control Systems', 'Install-Shield', 'Y2K', 'SFS97', 'IOZONE', 'NETBENCH', 'MPI', 'CUDA', 'OpenMP', 'GPU', 'Online Teaching']}
+                                        items={['Version Control Systems', 'Install-Shield', 'Y2K', 'SFS97', 'IOZONE', 'NETBENCH', 'GitHub', 'MPI', 'CUDA', 'OpenMP', 'GPU', 'Online Teaching']}
                                         topMargin={false}
                                     />
                                 </div>

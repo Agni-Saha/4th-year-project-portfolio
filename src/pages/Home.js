@@ -47,7 +47,7 @@ export default function Home() {
                                     <div className="line-wrap-larger">
                                         <div ref={element => line3 = element}>
                                             <h2 className="my-3">
-                                                We are the team of talented developer making websites
+                                                Mentoring students for the last 18 years
                                             </h2>
                                             <div className="mt-3">
                                                 <NavLink to="/about" className="btn-get-started">
